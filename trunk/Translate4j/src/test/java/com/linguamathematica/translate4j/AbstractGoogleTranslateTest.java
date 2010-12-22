@@ -52,7 +52,7 @@ import org.junit.experimental.theories.DataPoints;
 
 public abstract class AbstractGoogleTranslateTest
 {
-	static final String TEST_API_KEY = "AIzaSyD1eR6nJDBVIz9LtFr5V2HZYmuwIYG7YwQ";// "YOUR KEY";//
+	static final String TEST_API_KEY = "YOUR KEY";
 	static final Language ANY_LANGUAGE = ENGLISH;
 	static final Language ANY_OTHER_LANGUAGE = SPANISH;
 	static final String ANY_TEXT = "any text";
