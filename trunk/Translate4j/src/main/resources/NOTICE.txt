@@ -1,0 +1,10 @@
+
+Translate4j	- Apache license
+
+
+HTTPclient	- Apache license
+log4j		- Apache license
+
+JUnit		- Common Public License
+Hamcrest	- BSD license
+Jetty		- Eclipse Public License

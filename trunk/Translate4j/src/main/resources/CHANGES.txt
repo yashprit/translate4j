@@ -1,0 +1,11 @@
+== Version 1.0.0 ==
+
+Initial release.
+
+* Basque language is not supported, this is a Google issue.
+  The library itself can handle it and will support it when
+  Google adds support to it. 
+  
+* Translation from a language to iself is also not supported.
+  Again this is a Google issue and when fixed the library will
+  automatically support it.
