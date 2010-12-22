@@ -83,7 +83,7 @@ public abstract class Translator
 	public static Translator translator(final String apiKey)
 	{
 		ensureNotNull(apiKey, "API key");
-		ensure(apiKey.trim().matches("[a-zA-Z0-9\\-]+"), "API key [%s] must be non-empty and alphanumeric", apiKey);
+		ensure(apiKey.trim().matches("[a-zA-Z0-9_\\-]+"), "API key [%s] must be non-empty and alphanumeric", apiKey);
 
 		final String PATH = "/language/translate/v2";
 		final String HOST = "www.googleapis.com";

@@ -30,7 +30,7 @@ public class TranslatorLifeCycleTest extends AbstractGoogleTranslateTest
 	@Test(expected = IllegalArgumentException.class)
 	public void throwsIAEWhenProvidedWithANonAlphanumericKey() throws Exception
 	{
-		translator("a_");
+		translator("wr0ng k3y;");
 	}
 
 	@Test(expected = IllegalStateException.class)
