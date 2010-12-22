@@ -103,6 +103,7 @@ public class TranslateTest extends AbstractGoogleTranslateTest
 	}
 
 	@Theory
+	@Ignore
 	// NOTE: SLOW TEST
 	public void translatesSourceLanguageToTargetLanguage_MostOfTheTime(final LanguageWithText source) throws Exception
 	{

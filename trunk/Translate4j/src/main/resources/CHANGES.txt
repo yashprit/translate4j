@@ -1,3 +1,9 @@
+== Version 1.0.1 ==
+
+* Removed obsolete test key 
+  
+* Changed regular expression that checks API key so that it accepts underscores
+
 == Version 1.0.0 ==
 
 Initial release.
